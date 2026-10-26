@@ -52,6 +52,8 @@ To go back to stock: point `set-home-activity` at the vendor's launcher package 
 
 ## 6. Customising (in `MainActivity.kt`)
 
+> **Note:** the LG original gained an on-TV Settings screen plus a phone settings page (26 Oct update). This Android TV port does not have it yet — customisation still happens in code, below.
+
 - **App order:** edit the `orderLabels` list (case-insensitive label substrings).
 - **Weather city:** edit `weatherCity`, `latitude`, `longitude` (default Ho Chi Minh City, free Open-Meteo data).
 - **Wallpaper:** replace `app/src/main/res/drawable-nodpi/wallpaper.jpg` with any 16:9 image.

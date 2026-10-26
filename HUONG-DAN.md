@@ -52,6 +52,8 @@ Muốn quay về launcher gốc: `adb shell cmd package set-home-activity` trỏ
 
 ## 6. Tuỳ biến (trong `MainActivity.kt`)
 
+> **Lưu ý:** bản LG (bản gốc) đã có thêm màn hình Settings chỉnh ngay trên tivi + trang chỉnh bằng điện thoại (cập nhật 26/10). Bản Android TV này chưa có — các tuỳ biến vẫn sửa trong code như bên dưới.
+
 - **Thứ tự app:** sửa danh sách `orderLabels` (khớp một phần tên app, không phân biệt hoa thường).
 - **Thành phố thời tiết:** sửa `weatherCity`, `latitude`, `longitude` (mặc định TP.HCM, nguồn Open-Meteo miễn phí).
 - **Hình nền:** thay file `app/src/main/res/drawable-nodpi/wallpaper.jpg` bằng ảnh 16:9 của bạn.
